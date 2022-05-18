@@ -12,7 +12,7 @@ htmlTemplate(
   appTitle = consts$app_title,
   appVersion = consts$app_version,
   mainLogo = getExternalLink("https://idbmobile.com/", "main"),
-  dashboardLogo = getExternalLink("https://www.netsuite.com/portal/products/analytics.shtml", "dashboard", consts$shinyLogo),
+  dashboardLogo = getExternalLink("https://idbmobile.com/services", "dashboard", consts$shinyLogo),
   selectYear = selectInput(
     "selected_year", "Year",
     choices = getYearChoices(consts$data_first_day, consts$data_last_day),
