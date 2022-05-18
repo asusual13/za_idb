@@ -11,7 +11,7 @@ htmlTemplate(
   "www/index.html",
   appTitle = consts$app_title,
   appVersion = consts$app_version,
-  mainLogo = getExternalLink("https://www.netsuite.com/portal/home.shtml", "main"),
+  mainLogo = getExternalLink("https://idbmobile.com/", "main"),
   dashboardLogo = getExternalLink("https://www.netsuite.com/portal/products/analytics.shtml", "dashboard", consts$shinyLogo),
   selectYear = selectInput(
     "selected_year", "Year",
